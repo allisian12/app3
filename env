@@ -1,0 +1,6 @@
+# IRISCRM API Settings
+IRISCRM_API_KEY=tf7DBextM9tQWeV4E6Vxa2MTEOyUBF9vuNvxjJjllSw5ov7aT2
+IRISCRM_BASE_URL=https://elitecard.IRISCRM.com
+
+# PostgreSQL Database (Render external DB URL)
+DATABASE_URL=postgresql://onpoint_db_user:oJSz6o4NQrDJmPgKtuoH2JCiY61tdqp7@dpg-d27om3m3jp1c73fih5h0-a.oregon-postgres.render.com/onpoint_db
