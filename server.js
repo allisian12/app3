@@ -14,6 +14,7 @@ app.get('/sync', async (req, res) => {
     res.status(500).json({ success: false, error: error.message });
   }
 });
+app.use(express.static('public'));
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
