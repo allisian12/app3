@@ -1,0 +1,9 @@
+/public/
+  |- index.html
+  |- styles.css
+  |- app.js
+/views/
+  |- login.html
+  |- dashboard.html
+  |- timeclock.html
+  |- leave.html
