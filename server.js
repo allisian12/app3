@@ -18,3 +18,25 @@ app.get('/sync', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+// Employee authentication
+app.post('/api/login', async (req, res) => {
+  // Implement actual authentication
+  res.json({ id: '123', name: 'John Doe' });
+});
+
+// Time clock endpoints
+app.post('/api/timeclock', async (req, res) => {
+  // Record time clock action
+  res.json({ success: true });
+});
+
+// Leave management endpoints
+app.post('/api/leave', async (req, res) => {
+  // Process leave request
+  res.json({ success: true });
+});
+
+app.get('/api/leave/:employeeId', async (req, res) => {
+  // Get leave requests
+  res.json([]);
+});
