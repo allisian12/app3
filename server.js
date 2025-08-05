@@ -3,7 +3,7 @@ const express = require('express');
 const { fetchApprovedDeals, saveDeals } = require('./services/iriscrm');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 app.get('/sync', async (req, res) => {
   try {
